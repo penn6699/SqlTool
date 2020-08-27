@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "web\", "{2798E256-3032-4DD0-A35C-26213967F864}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1392"
+		Debug.AspNetCompiler.PhysicalPath = "web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1392\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1392"
+		Release.AspNetCompiler.PhysicalPath = "web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1392\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1392"
+		SlnRelativePath = "web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "api\api.csproj", "{30497F8D-AEE0-4388-BAC8-875ED6DA2F10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2798E256-3032-4DD0-A35C-26213967F864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2798E256-3032-4DD0-A35C-26213967F864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2798E256-3032-4DD0-A35C-26213967F864}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2798E256-3032-4DD0-A35C-26213967F864}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{30497F8D-AEE0-4388-BAC8-875ED6DA2F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30497F8D-AEE0-4388-BAC8-875ED6DA2F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30497F8D-AEE0-4388-BAC8-875ED6DA2F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30497F8D-AEE0-4388-BAC8-875ED6DA2F10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5551CABD-6CCE-4473-9E2E-0D82DD5ECED8}
+	EndGlobalSection
+EndGlobal
